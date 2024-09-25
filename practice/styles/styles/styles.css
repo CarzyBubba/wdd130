@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  /* rules, selector, property, attribute */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+  background-color: slateblue;
+  padding: 10px;
+}
+a {
+  color: orange;
+  margin: 40px;
+}
+h1 {
+  color: slateblue;
+}
+img {
+  width: 800px;
+  border: 4px solid steelblue;
+}
+p {
+  padding: 10px;
+}
+footer {
+  background-color: steelblue;
+  color: orange;
+}
