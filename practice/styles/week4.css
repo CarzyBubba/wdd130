@@ -1,0 +1,39 @@
+/* RUUUUULES */
+nav{
+    text-align: center;
+    padding-left: 120%;
+}
+
+body{
+    font-size: 2em;
+}
+main{
+    background-color: maroon;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+#green{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+footer p{
+    background-color: chocolate;
+    color: yellow;
+}
+
+a:hover{
+    background-color: chartreuse;
+    color: blue;
+}
+
+p{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
