@@ -21,7 +21,7 @@ nav a{
     text-decoration: none;
     padding: 35px;
     margin: 25px;
-    border-radius: 5;
+    border-radius: 5px;
 }
 #hero-msg h1{
     text-align: center;
