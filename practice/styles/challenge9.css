@@ -1,0 +1,39 @@
+.blog-post{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+body{
+    background-color: gray;
+}
+img{
+    width: 400px;
+}
+
+.blog-stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.blog-stats div{
+    color: white;
+    background-color: steelblue;
+    text-align: center;
+}
+.bs-1{
+    border-right: gray 1px solid;
+    border-top:  gray 1px solid;
+}
+.bs-2{
+    border-right: gray 1px solid;
+    border-top: gray 1px solid;
+    border-left: gray 1px solid;
+}
+.bs-3{
+border-top: gray 1px solid;
+border-left: gray 1px solid;
+}
+
+
