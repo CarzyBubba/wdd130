@@ -347,47 +347,41 @@ form {
 
 .info-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 6 equal columns */
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 20px; /* Space between items */
+    gap: 20px;
     padding: 20px;
 }
 
 .where-img{
-    grid-column: 1/2; /* Image spans left */
+    grid-column: 1/2;
     grid-row: 1/2;
-    width: 100%; /* Ensure image fits */
-    height: auto;
 }
 
 .where-p{
-    grid-column: 2/3; /* Text spans right */
+    grid-column: 2/3;
     grid-row: 1/2;
     text-align: left;
 }
 
 .how-img{
-    grid-column: 2/3; /* Image on the right */
+    grid-column: 2/3;
     grid-row: 2/3;
-    width: 100%;
-    height: auto;
 }
 
 .how-p{
-    grid-column: 1/2; /* Text on the left */
+    grid-column: 1/2;
     grid-row: 2/3;
     text-align: left;
 }
 
 .what-img{
-    grid-column: 1/2; /* Image spans left */
+    grid-column: 1/2;
     grid-row: 3/4;
-    width: 100%;
-    height: auto;
 }
 
 .what-p{
-    grid-column: 2/3; /* Text spans right */
+    grid-column: 2/3;
     grid-row: 3/4;
     text-align: left;
 }
