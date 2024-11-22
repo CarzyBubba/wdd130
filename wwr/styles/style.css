@@ -353,35 +353,53 @@ form {
     padding: 20px;
 }
 
-.where-img{
-    grid-column: 1/2;
+.info-where{
+    grid-column: 1/3;
     grid-row: 1/2;
 }
 
+.where-img{
+    grid-column: 1/2;
+    /* grid-row: 1/2; */
+}
+
 .where-p{
+    max-width: 400px;
     grid-column: 2/3;
-    grid-row: 1/2;
+    /* grid-row: 1/2; */
     text-align: left;
+}
+
+.info-how{
+    grid-column: 1/3;
+    grid-row: 2/3;
 }
 
 .how-img{
     grid-column: 2/3;
-    grid-row: 2/3;
+    /* grid-row: 2/3; */
 }
 
 .how-p{
+    max-width: 400px;
     grid-column: 1/2;
-    grid-row: 2/3;
+    /* grid-row: 2/3; */
     text-align: left;
+}
+
+.info-what{
+    grid-column: 1/3;
+    grid-row: 3/4;
 }
 
 .what-img{
     grid-column: 1/2;
-    grid-row: 3/4;
+    /* grid-row: 3/4; */
 }
 
 .what-p{
+    max-width: 400px;
     grid-column: 2/3;
-    grid-row: 3/4;
+    /* grid-row: 3/4; */
     text-align: left;
 }
