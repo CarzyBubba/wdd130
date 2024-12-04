@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 header {
   display: flex;
   max-height: 100px;
@@ -31,10 +33,12 @@ nav a:hover{
 
 h1{
     text-align: center;
+    color: white;
 }
 
 h4{
     text-align: center;
+    color: white;
 }
 
 main {
@@ -50,6 +54,7 @@ main {
 
 .home-grid p{
     max-width: 500px;
+    color: white;
 }
 
 .home-grid img{
@@ -62,6 +67,7 @@ main {
   max-width: 400px;
   justify-self: center;
   text-align: center;
+  margin-top: 20%;
 }
 
 .home-p-what {
@@ -79,6 +85,7 @@ main {
   max-width: 400px;
   justify-self: center;
   text-align: center;
+  margin-top: 20%;
 }
 
 .home-p-why{
@@ -87,7 +94,7 @@ main {
     text-align: center;
     justify-self: center;
     background-color: #ac7b84;
-    max-height: 350px;
+    max-height: 430px;
     border-radius: 5%;
 
 }
@@ -106,12 +113,13 @@ main {
     background-color: #ac7b84;
     text-align: center;
     justify-self: center;
-    max-height: 300px;
+    max-height: 370px;
     border-radius: 5%;
 }
 
 body{
     background-color: #54457f;
+    font-family: "Poppins", serif;
 }
 
 footer{
