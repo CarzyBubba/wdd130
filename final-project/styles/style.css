@@ -143,3 +143,38 @@ footer a:hover{
     color: black;
     text-decoration: underline;
 }
+
+/* history page */
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.history-grid p{
+  width: 500px;
+  color: white;
+}
+
+.history-p1{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #ac7b84;
+  text-align: center;
+  justify-self: center;
+  max-height: 100%;
+  border-radius: 5%;
+}
+
+.history-poster{
+  place-self:  center;
+  border-radius: 5%;
+}
+
+.history-pngGuy{
+  place-self:  center;
+}
+
+.history-hero-img{
+  
+}
